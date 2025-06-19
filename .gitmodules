@@ -1,0 +1,4 @@
+[submodule "limitador"]
+	path = limitador
+	url = https://github.com/kuadrant/limitador
+	branch = main
