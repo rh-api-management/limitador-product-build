@@ -1,1 +1,2 @@
-# limitador-product-build
+# Limitador Product Build
+Konflux configuration for Limitador
