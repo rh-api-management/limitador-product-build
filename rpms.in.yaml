@@ -3,7 +3,7 @@ contentOrigin:
     - ./ubi.repo
     - ./redhat.repo
 context:
-  image: registry.redhat.io/ubi9/ubi:latest
+  containerfile: Containerfile.limitador
 packages:
   - cargo
   - jq
