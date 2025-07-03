@@ -1,0 +1,20 @@
+{
+    "extends": ["github>konflux-ci/mintmaker:config/renovate/renovate.json"],
+    "packageRules": [
+        {
+            "description": "Enable automerge for all image digest updates",
+            "matchPackageNames": [
+                "registry.redhat.io/**"
+            ],
+            "automerge": true,
+            "enabled": true,
+            "recreateWhen": "always",
+            "rebaseWhen": "behind-base-branch"
+        }
+    ],
+    "lockFileMaintenance": {
+        "enabled": true,
+        "recreateWhen": "always",
+        "rebaseWhen": "behind-base-branch"
+    }
+}
