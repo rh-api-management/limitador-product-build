@@ -3,18 +3,12 @@ contentOrigin:
     - ./ubi.repo
     - ./redhat.repo
 context:
-  containerfile: Containerfile.limitador
+  image: registry.redhat.io/ubi9/ubi:latest
 packages:
-  - cargo
   - jq
   - python3
   - python3-pip
   - skopeo
-  - shadow-utils
-  - npm
-  - nginx
-  - nginx-core
-  - nginx-filesystem
   - rust-toolset
   - llvm-toolset
   - gcc-c++
