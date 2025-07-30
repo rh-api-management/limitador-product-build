@@ -2,7 +2,7 @@
     # Build Stage
     # ------------------------------------------------------------------------------
 
-    FROM registry.redhat.io/ubi9/ubi@sha256:61bf5be4fcf7fa4d1ce6c8c0376dcb8b06e68aae6a0a54c4cf39c06116684962 AS limitador-build
+    FROM registry.redhat.io/ubi9/ubi@sha256:e2ec76831504fcb2e3af8f243fba7a08398e343ee27296adcc8c80f82818b22d AS limitador-build
 
     RUN PKGS="rust-toolset llvm-toolset gcc-c++ gcc-toolset-12-binutils-gold protobuf-devel protobuf-compiler openssl-devel perl git"  \
     && dnf install --nodocs --assumeyes $PKGS \
@@ -37,7 +37,7 @@
     # Run Stage
     # ------------------------------------------------------------------------------
     
-    FROM registry.redhat.io/ubi9/ubi@sha256:61bf5be4fcf7fa4d1ce6c8c0376dcb8b06e68aae6a0a54c4cf39c06116684962
+    FROM registry.redhat.io/ubi9/ubi@sha256:e2ec76831504fcb2e3af8f243fba7a08398e343ee27296adcc8c80f82818b22d
     # Labels consumed by Red Hat build service
     # Please keep the version label first as it is looked up by the Makefile - also, it is meant to be the image tag.
     LABEL version="1.0.0" \
