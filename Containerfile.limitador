@@ -40,13 +40,13 @@
     FROM registry.redhat.io/ubi9/ubi@sha256:b68c21b2dd3e72abcf2f8dcfc77580e4030564d1243bfcb7cd64ccc5aa3e0a25
     # Labels consumed by Red Hat build service
     # Please keep the version label first as it is looked up by the Makefile - also, it is meant to be the image tag.
-    LABEL version="1.0.0" \
+    LABEL version="2.0.0" \
             com.redhat.component="limitador-container" \
             name="rhcl-1/limitador-rhel9" \
-            summary="Limitador is a generic rate-limiter written in Rust." \
-            description="Limitador is a generic rate-limiter written in Rust. It can be used as a library, or as a service. The service exposes HTTP endpoints to apply and observe limits. Limitador can be used with Envoy because it also exposes a grpc service, on a different port, that implements the Envoy Rate Limit protocol (v3)." \
-            io.k8s.display-name="Limitador Rate Limiting" \
-            io.k8s.description="Limitador is a generic rate-limiter written in Rust. It can be used as a library, or as a service. The service exposes HTTP endpoints to apply and observe limits. Limitador can be used with Envoy because it also exposes a grpc service, on a different port, that implements the Envoy Rate Limit protocol (v3)." \
+            summary="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)." \
+            description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
+            io.k8s.display-name="Limitador" \
+            io.k8s.description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
             io.openshift.tags="rate limiting, envoy, api" \
             maintainer="asnaps@redhat.com"
 
