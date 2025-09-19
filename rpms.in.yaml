@@ -21,3 +21,4 @@ packages:
   - git
   - shadow-utils
   - libgcc
+arches: [x86_64, aarch64]
