@@ -40,7 +40,7 @@
     FROM registry.redhat.io/ubi9/ubi@sha256:dbc1e98d14a022542e45b5f22e0206d3f86b5bdf237b58ee7170c9ddd1b3a283
     # Labels consumed by Red Hat build service
     # Please keep the version label first as it is looked up by the Makefile - also, it is meant to be the image tag.
-    LABEL version="2.0.0" \
+    LABEL version="2.2.0" \
             com.redhat.component="limitador-container" \
             name="rhcl-1/limitador-rhel9" \
             summary="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)." \
