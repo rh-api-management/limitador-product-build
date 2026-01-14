@@ -41,14 +41,15 @@
     # Labels consumed by Red Hat build service
     # Please keep the version label first as it is looked up by the Makefile - also, it is meant to be the image tag.
     LABEL version="2.2.0" \
-            com.redhat.component="limitador-container" \
-            name="rhcl-1/limitador-rhel9" \
-            summary="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)." \
-            description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
-            io.k8s.display-name="Limitador" \
-            io.k8s.description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
-            io.openshift.tags="rate limiting, envoy, api" \
-            maintainer="asnaps@redhat.com"
+          com.redhat.component="limitador-container" \
+          name="rhcl-1/limitador-rhel9" \
+          cpe="cpe:/a:redhat:connectivity_link:1::el9" \
+          summary="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)." \
+          description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
+          io.k8s.display-name="Limitador" \
+          io.k8s.description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
+          io.openshift.tags="rate limiting, envoy, api" \
+          maintainer="asnaps@redhat.com"
 
     # shadow-utils is required for `useradd`
     RUN PKGS="libgcc shadow-utils" \
