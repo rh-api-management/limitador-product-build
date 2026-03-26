@@ -1,6 +1,14 @@
 {
-    "extends": ["github>konflux-ci/mintmaker//config/renovate/renovate.json"],
-    "enabledManagers": ["tekton", "dockerfile", "regex", "rpm", "github-actions"],
+    "extends": [
+        "github>konflux-ci/mintmaker//config/renovate/renovate.json"
+    ],
+    "enabledManagers": [
+        "tekton",
+        "dockerfile",
+        "custom.regex",
+        "rpm",
+        "github-actions"
+    ],
     "automerge": true,
     "platformAutomerge": true,
     "recreateWhen": "always",
