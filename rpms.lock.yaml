@@ -193,27 +193,27 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.2.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.10.aarch64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 568363
-    checksum: sha256:5e3bbdb64dad55fdb07540756c333e0a73afe4ab493de199277a82138c224352
+    size: 574689
+    checksum: sha256:8c65fcccb3edde97d47a2a226cf768476ed4a12a31074a6112925f6569750b20
     name: glibc-devel
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/go-srpm-macros-3.6.0-12.el9_7.noarch.rpm
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/go-srpm-macros-3.6.0-13.el9_7.noarch.rpm
     repoid: ubi-9-appstream-rpms
-    size: 27275
-    checksum: sha256:02f6ac481c23d81a470fba4879841b382c8350be4132097f108d295ebc45b9aa
+    size: 33806
+    checksum: sha256:ea2a392fd650fc6c4928590af98a4b35f705537b0353417599ba97c21b271404
     name: go-srpm-macros
-    evr: 3.6.0-12.el9_7
-    sourcerpm: go-rpm-macros-3.6.0-12.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.34.1.el9_7.aarch64.rpm
+    evr: 3.6.0-13.el9_7
+    sourcerpm: go-rpm-macros-3.6.0-13.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.42.1.el9_7.aarch64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 2978525
-    checksum: sha256:eddce638a249ea9f3b42e56a9860b5dffb9958f5afa9a9a1c8317cd43dd923e6
+    size: 2983905
+    checksum: sha256:6cb300c43d383278e6419f20536ec6d06d4972d8e512687eaf3d54a606b52f84
     name: kernel-headers
-    evr: 5.14.0-611.34.1.el9_7
-    sourcerpm: kernel-5.14.0-611.34.1.el9_7.src.rpm
+    evr: 5.14.0-611.42.1.el9_7
+    sourcerpm: kernel-5.14.0-611.42.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -2139,13 +2139,13 @@ arches:
     name: file
     evr: 5.39-16.el9
     sourcerpm: file-5.39-16.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-gconv-extra-2.34-231.el9_7.2.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-gconv-extra-2.34-231.el9_7.10.aarch64.rpm
     repoid: ubi-9-baseos-rpms
-    size: 1817539
-    checksum: sha256:9664e711983109a5b1c7b4b61a1a9f0c9b518a829eeef7064a138e7bcfec1f2d
+    size: 1824070
+    checksum: sha256:d181ac8b41e7b184af5fa20494fdf467a585a508a274b3d3af39f34fcc3823e9
     name: glibc-gconv-extra
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.aarch64.rpm
     repoid: ubi-9-baseos-rpms
     size: 1088949
@@ -2314,13 +2314,13 @@ arches:
     name: unzip
     evr: 6.0-59.el9
     sourcerpm: unzip-6.0-59.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.1.noarch.rpm
     repoid: ubi-9-baseos-rpms
-    size: 13179
-    checksum: sha256:793710bbfc6627228c7811bdd3cbecb2c667a4581bd8b5fe9b9a2ebb20e57f79
+    size: 20544
+    checksum: sha256:cf19763151f587fbb5ecd77231f0e64c6a3328bbd2800c86fc0dcfce2058c506
     name: vim-filesystem
-    evr: 2:8.2.2637-23.el9_7
-    sourcerpm: vim-8.2.2637-23.el9_7.src.rpm
+    evr: 2:8.2.2637-23.el9_7.1
+    sourcerpm: vim-8.2.2637-23.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/z/zip-3.0-35.el9.aarch64.rpm
     repoid: ubi-9-baseos-rpms
     size: 269791
@@ -2328,27 +2328,27 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/protobuf-3.14.0-16.el9.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 960397
-    checksum: sha256:ddbd84ae82a2c25adeb4d4b13de30976de56e4245a0f6bf2e6a8bb55159d1bd5
+    size: 962232
+    checksum: sha256:9535a0526279b472463607bdb1c7f241d305db793e66bd5ad4bc41beaecbe5bf
     name: protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-16.el9.aarch64.rpm
+    evr: 3.14.0-17.el9_7
+    sourcerpm: protobuf-3.14.0-17.el9_7.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-17.el9_7.aarch64.rpm
     repoid: codeready-builder-for-rhel-9-aarch64-rpms
-    size: 792260
-    checksum: sha256:86ba0e45140b4e68bb3303b9c57af315937a6dcd78c608546021fc509c2de5b5
+    size: 794025
+    checksum: sha256:129b0ec8f2d8f1c96fa14ca2ed4dad2e14f0bdad22afac1353a9ff5b711eec8d
     name: protobuf-compiler
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/p/protobuf-devel-3.14.0-16.el9.aarch64.rpm
+    evr: 3.14.0-17.el9_7
+    sourcerpm: protobuf-3.14.0-17.el9_7.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/codeready-builder/os/Packages/p/protobuf-devel-3.14.0-17.el9_7.aarch64.rpm
     repoid: codeready-builder-for-rhel-9-aarch64-rpms
-    size: 377703
-    checksum: sha256:1f3871b3bca82bbbbd53186fd6346a7cffc4d454e373c2df160e4016c81bc6da
+    size: 380294
+    checksum: sha256:32124b166b798ae18a88033cadeacd113ba6d308fc0a284a395aeb6157bced4a
     name: protobuf-devel
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
+    evr: 3.14.0-17.el9_7
+    sourcerpm: protobuf-3.14.0-17.el9_7.src.rpm
   source:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/a/annobin-12.98-1.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
@@ -2416,12 +2416,12 @@ arches:
     checksum: sha256:815c2ae9574006ecb596000492929264de785444736ee3968d5ee34cb6e75159
     name: git
     evr: 2.47.3-1.el9_6
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/go-rpm-macros-3.6.0-12.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/g/go-rpm-macros-3.6.0-13.el9_7.src.rpm
     repoid: ubi-9-appstream-source-rpms
-    size: 134296
-    checksum: sha256:3800c47f96f175d6a9a9da5edbd6945aa6ef8ef5b86a84cfcadc558e78762d77
+    size: 140859
+    checksum: sha256:e66bea34985b5768a909ace1874bffbc5d813020c0e128829d3b91f8f90a3727
     name: go-rpm-macros
-    evr: 3.6.0-12.el9_7
+    evr: 3.6.0-13.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/k/kernel-srpm-macros-1.0-14.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 22473
@@ -3220,12 +3220,12 @@ arches:
     checksum: sha256:123e4f54296116246dfd22b4c6628fab4537c62c8a95394194085e6f60b3763c
     name: perl-version
     evr: 7:0.99.28-4.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-16.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-17.el9_7.src.rpm
     repoid: ubi-9-appstream-source-rpms
-    size: 6493925
-    checksum: sha256:92744f56dedc08b7fd696b2d3f42576b777ae3ddcfb60fbb1f29086cf57eaf49
+    size: 6499960
+    checksum: sha256:573182c4de6fdee8dcdfb183c3c9a0df198859cef7d9f7bd19986fb7c0ad3c8c
     name: protobuf
-    evr: 3.14.0-16.el9
+    evr: 3.14.0-17.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/p/pyproject-rpm-macros-1.16.2-1.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 289973
@@ -3334,12 +3334,12 @@ arches:
     checksum: sha256:4ab595dc52e7a66f9cb067e55081e9ba4e2cb577187cf1ac9a2e92e07c295560
     name: gcc
     evr: 11.5.0-11.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/g/glibc-2.34-231.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/g/glibc-2.34-231.el9_7.10.src.rpm
     repoid: ubi-9-baseos-source-rpms
-    size: 20247873
-    checksum: sha256:a1638d70dfd1554dbcca0ef6187a3387bb36f6e2b8f484b553f52a4be15a2fd1
+    size: 20264991
+    checksum: sha256:d91fd4821e3e725d15f7f10d0157d6ea43554d492fce5cb2ea993d0a9f8394ad
     name: glibc
-    evr: 2.34-231.el9_7.2
+    evr: 2.34-231.el9_7.10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/g/groff-1.22.4-10.el9.src.rpm
     repoid: ubi-9-baseos-source-rpms
     size: 4138121
@@ -3472,12 +3472,12 @@ arches:
     checksum: sha256:299d7451195ccb37d8eb90f1870e00eb5ff4c12716c933d4c1657949f0d6aaf8
     name: unzip
     evr: 6.0-59.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.1.src.rpm
     repoid: ubi-9-baseos-source-rpms
-    size: 12811300
-    checksum: sha256:c66687ac83b80d3830fb0e8b2fca7b322049beaa190b3daef6c155771812b5d7
+    size: 12820241
+    checksum: sha256:0c28c75aae0bf11b7f9145678914992522cdf19be0450a56223641cdd394d26f
     name: vim
-    evr: 2:8.2.2637-23.el9_7
+    evr: 2:8.2.2637-23.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/source/SRPMS/Packages/z/zip-3.0-35.el9.src.rpm
     repoid: ubi-9-baseos-source-rpms
     size: 1137410
@@ -3496,12 +3496,12 @@ arches:
     checksum: sha256:4f79abdb2ad95ad664da3e6b1b3095bc9a429b877b257652531176fab424eabf
     name: efi-rpm-macros
     evr: 6-4.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-611.34.1.el9_7.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-611.42.1.el9_7.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 150913966
-    checksum: sha256:5af024d8ce3c828a51f9464adea031829a599c0d7df2d951911476b656b320ef
+    size: 150942654
+    checksum: sha256:18cf33c883af96df5b7751474f01f2dba9b4687a56e5685e936d382e43f2a032
     name: kernel
-    evr: 5.14.0-611.34.1.el9_7
+    evr: 5.14.0-611.42.1.el9_7
   module_metadata: []
 - arch: x86_64
   packages:
@@ -3694,34 +3694,34 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.10.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 37885
-    checksum: sha256:6468a64e723d9fff4921fe05b8b5117b19277999053b20d67416f727b2b8d3dd
+    size: 44222
+    checksum: sha256:4bf307483b5c6c359b7484804c453ab5c6b0fc65c7cd5368e2572077d804d559
     name: glibc-devel
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-headers-2.34-231.el9_7.2.x86_64.rpm
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-headers-2.34-231.el9_7.10.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 558293
-    checksum: sha256:f4405218c4527e240f0739ba1b63e8a653e74ef48e960c0e164da55eec8c51dc
+    size: 564682
+    checksum: sha256:dfabaa79899e36aa920d901851e5c2101d43b91d9f466dc97c35b4c14290d4e7
     name: glibc-headers
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/go-srpm-macros-3.6.0-12.el9_7.noarch.rpm
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/go-srpm-macros-3.6.0-13.el9_7.noarch.rpm
     repoid: ubi-9-appstream-rpms
-    size: 27275
-    checksum: sha256:02f6ac481c23d81a470fba4879841b382c8350be4132097f108d295ebc45b9aa
+    size: 33806
+    checksum: sha256:ea2a392fd650fc6c4928590af98a4b35f705537b0353417599ba97c21b271404
     name: go-srpm-macros
-    evr: 3.6.0-12.el9_7
-    sourcerpm: go-rpm-macros-3.6.0-12.el9_7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.34.1.el9_7.x86_64.rpm
+    evr: 3.6.0-13.el9_7
+    sourcerpm: go-rpm-macros-3.6.0-13.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.42.1.el9_7.x86_64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 3017565
-    checksum: sha256:a44cd4df083740e6de10a546a6a549b5df55ef20063af9f9fdac2e290879a368
+    size: 3022957
+    checksum: sha256:9e5cf3e6a7d3aca6008da1f64dc2a5dbf8466645154f0ccfccee4bbd4de7e6f2
     name: kernel-headers
-    evr: 5.14.0-611.34.1.el9_7
-    sourcerpm: kernel-5.14.0-611.34.1.el9_7.src.rpm
+    evr: 5.14.0-611.42.1.el9_7
+    sourcerpm: kernel-5.14.0-611.42.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -5633,13 +5633,13 @@ arches:
     name: file
     evr: 5.39-16.el9
     sourcerpm: file-5.39-16.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.34-231.el9_7.2.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.34-231.el9_7.10.x86_64.rpm
     repoid: ubi-9-baseos-rpms
-    size: 1759310
-    checksum: sha256:62b806a05b998161d8d5f4d5b9006664f279f1afdb7861b3c8516c81ce0fa4b1
+    size: 1765503
+    checksum: sha256:17c997f5c4f492905f20196848d3dbee3ff46ce02033992465d750d2ecede7c8
     name: glibc-gconv-extra
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 1133828
@@ -5808,13 +5808,13 @@ arches:
     name: unzip
     evr: 6.0-59.el9
     sourcerpm: unzip-6.0-59.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.noarch.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.1.noarch.rpm
     repoid: ubi-9-baseos-rpms
-    size: 13179
-    checksum: sha256:793710bbfc6627228c7811bdd3cbecb2c667a4581bd8b5fe9b9a2ebb20e57f79
+    size: 20544
+    checksum: sha256:cf19763151f587fbb5ecd77231f0e64c6a3328bbd2800c86fc0dcfce2058c506
     name: vim-filesystem
-    evr: 2:8.2.2637-23.el9_7
-    sourcerpm: vim-8.2.2637-23.el9_7.src.rpm
+    evr: 2:8.2.2637-23.el9_7.1
+    sourcerpm: vim-8.2.2637-23.el9_7.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/z/zip-3.0-35.el9.x86_64.rpm
     repoid: ubi-9-baseos-rpms
     size: 276200
@@ -5822,27 +5822,27 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/protobuf-3.14.0-16.el9.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 1057844
-    checksum: sha256:b1708ff32307536de8c9edcf530f7a057533566f3013297cf2239534b24a5ef6
+    size: 1059543
+    checksum: sha256:44949aa2a3a178043d27083dd629700fd70effeb5a50c289f8fe5fdba8176b66
     name: protobuf
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-16.el9.x86_64.rpm
+    evr: 3.14.0-17.el9_7
+    sourcerpm: protobuf-3.14.0-17.el9_7.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/p/protobuf-compiler-3.14.0-17.el9_7.x86_64.rpm
     repoid: codeready-builder-for-rhel-9-x86_64-rpms
-    size: 887388
-    checksum: sha256:8aa92a0fd3e1ca535fc29fd0ebd67ae08f45b6b05ec77c9bd90919fe21bd8337
+    size: 889095
+    checksum: sha256:4d69b013294f90e5ca7a62ff50bb82c3aa9dc235c69fa0df54c8115346931e56
     name: protobuf-compiler
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/p/protobuf-devel-3.14.0-16.el9.x86_64.rpm
+    evr: 3.14.0-17.el9_7
+    sourcerpm: protobuf-3.14.0-17.el9_7.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/Packages/p/protobuf-devel-3.14.0-17.el9_7.x86_64.rpm
     repoid: codeready-builder-for-rhel-9-x86_64-rpms
-    size: 377659
-    checksum: sha256:016ecb161498746981fc68a864d185b085b391ea3a363b5854a9b8d6cd6b49f4
+    size: 380293
+    checksum: sha256:10d360164be811d76d99f38246563db10e564abedb9f274e2a96f0a310855c9e
     name: protobuf-devel
-    evr: 3.14.0-16.el9
-    sourcerpm: protobuf-3.14.0-16.el9.src.rpm
+    evr: 3.14.0-17.el9_7
+    sourcerpm: protobuf-3.14.0-17.el9_7.src.rpm
   source:
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/a/annobin-12.98-1.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
@@ -5910,12 +5910,12 @@ arches:
     checksum: sha256:815c2ae9574006ecb596000492929264de785444736ee3968d5ee34cb6e75159
     name: git
     evr: 2.47.3-1.el9_6
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/go-rpm-macros-3.6.0-12.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/g/go-rpm-macros-3.6.0-13.el9_7.src.rpm
     repoid: ubi-9-appstream-source-rpms
-    size: 134296
-    checksum: sha256:3800c47f96f175d6a9a9da5edbd6945aa6ef8ef5b86a84cfcadc558e78762d77
+    size: 140859
+    checksum: sha256:e66bea34985b5768a909ace1874bffbc5d813020c0e128829d3b91f8f90a3727
     name: go-rpm-macros
-    evr: 3.6.0-12.el9_7
+    evr: 3.6.0-13.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/k/kernel-srpm-macros-1.0-14.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 22473
@@ -6714,12 +6714,12 @@ arches:
     checksum: sha256:123e4f54296116246dfd22b4c6628fab4537c62c8a95394194085e6f60b3763c
     name: perl-version
     evr: 7:0.99.28-4.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-16.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/p/protobuf-3.14.0-17.el9_7.src.rpm
     repoid: ubi-9-appstream-source-rpms
-    size: 6493925
-    checksum: sha256:92744f56dedc08b7fd696b2d3f42576b777ae3ddcfb60fbb1f29086cf57eaf49
+    size: 6499960
+    checksum: sha256:573182c4de6fdee8dcdfb183c3c9a0df198859cef7d9f7bd19986fb7c0ad3c8c
     name: protobuf
-    evr: 3.14.0-16.el9
+    evr: 3.14.0-17.el9_7
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/p/pyproject-rpm-macros-1.16.2-1.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 289973
@@ -6828,12 +6828,12 @@ arches:
     checksum: sha256:4ab595dc52e7a66f9cb067e55081e9ba4e2cb577187cf1ac9a2e92e07c295560
     name: gcc
     evr: 11.5.0-11.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.34-231.el9_7.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/glibc-2.34-231.el9_7.10.src.rpm
     repoid: ubi-9-baseos-source-rpms
-    size: 20247873
-    checksum: sha256:a1638d70dfd1554dbcca0ef6187a3387bb36f6e2b8f484b553f52a4be15a2fd1
+    size: 20264991
+    checksum: sha256:d91fd4821e3e725d15f7f10d0157d6ea43554d492fce5cb2ea993d0a9f8394ad
     name: glibc
-    evr: 2.34-231.el9_7.2
+    evr: 2.34-231.el9_7.10
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/g/groff-1.22.4-10.el9.src.rpm
     repoid: ubi-9-baseos-source-rpms
     size: 4138121
@@ -6966,12 +6966,12 @@ arches:
     checksum: sha256:299d7451195ccb37d8eb90f1870e00eb5ff4c12716c933d4c1657949f0d6aaf8
     name: unzip
     evr: 6.0-59.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/v/vim-8.2.2637-23.el9_7.1.src.rpm
     repoid: ubi-9-baseos-source-rpms
-    size: 12811300
-    checksum: sha256:c66687ac83b80d3830fb0e8b2fca7b322049beaa190b3daef6c155771812b5d7
+    size: 12820241
+    checksum: sha256:0c28c75aae0bf11b7f9145678914992522cdf19be0450a56223641cdd394d26f
     name: vim
-    evr: 2:8.2.2637-23.el9_7
+    evr: 2:8.2.2637-23.el9_7.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/z/zip-3.0-35.el9.src.rpm
     repoid: ubi-9-baseos-source-rpms
     size: 1137410
@@ -6990,10 +6990,10 @@ arches:
     checksum: sha256:4f79abdb2ad95ad664da3e6b1b3095bc9a429b877b257652531176fab424eabf
     name: efi-rpm-macros
     evr: 6-4.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-611.34.1.el9_7.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-611.42.1.el9_7.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 150913966
-    checksum: sha256:5af024d8ce3c828a51f9464adea031829a599c0d7df2d951911476b656b320ef
+    size: 150942654
+    checksum: sha256:18cf33c883af96df5b7751474f01f2dba9b4687a56e5685e936d382e43f2a032
     name: kernel
-    evr: 5.14.0-611.34.1.el9_7
+    evr: 5.14.0-611.42.1.el9_7
   module_metadata: []
