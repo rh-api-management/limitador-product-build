@@ -16,4 +16,4 @@ packages:
   - git
   - shadow-utils
   - libgcc
-arches: [x86_64, aarch64]
+arches: [x86_64, aarch64, ppc64le, s390x]
