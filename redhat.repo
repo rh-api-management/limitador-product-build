@@ -1566,7 +1566,7 @@ enabled_metadata = 0
 [insights-proxy-for-rhel-9-$basearch-rpms]
 name = Red Hat Insights Proxy for RHEL9 $basearch (RPMs)
 baseurl = https://cdn.redhat.com/content/dist/layered/rhel9/$basearch/insights-proxy/1/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 1
