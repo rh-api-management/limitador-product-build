@@ -52,7 +52,7 @@
           maintainer="asnaps@redhat.com"
 
     # shadow-utils is required for `useradd`
-    RUN PKGS="libgcc shadow-utils" \
+    RUN PKGS="libgcc libstdc++ shadow-utils" \
         && microdnf --assumeyes install --nodocs $PKGS \
         && rpm --verify --nogroup --nouser $PKGS \
         && microdnf --assumeyes clean all
