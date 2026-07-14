@@ -37,7 +37,7 @@
     # Run Stage
     # ------------------------------------------------------------------------------
 
-    FROM registry.redhat.io/ubi9/ubi:latest
+    FROM registry.redhat.io/ubi9/ubi-minimal:latest
     # Labels consumed by Red Hat build service
     # Please keep the version label first as it is looked up by the Makefile - also, it is meant to be the image tag.
     LABEL version="2.3.0" \
@@ -52,10 +52,10 @@
           maintainer="asnaps@redhat.com"
 
     # shadow-utils is required for `useradd`
-    RUN PKGS="libgcc shadow-utils" \
-        && dnf --assumeyes install --nodocs $PKGS \
+    RUN PKGS="libgcc libstdc++ shadow-utils" \
+        && microdnf --assumeyes install --nodocs $PKGS \
         && rpm --verify --nogroup --nouser $PKGS \
-        && dnf --assumeyes clean all
+        && microdnf --assumeyes clean all
 
     RUN useradd -u 1000 -s /bin/sh -m -d /home/limitador limitador
 
