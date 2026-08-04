@@ -368,13 +368,6 @@ arches:
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
     sourcerpm: perl-Algorithm-Diff-1.2010-4.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 79514
-    checksum: sha256:055ff5f8f75550512c9dc8f27a8fcb891a84790279b83f69556fbfb193f32e49
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
-    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-Archive-Zip-1.68-6.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 118766
@@ -2328,6 +2321,13 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.2.noarch.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 79997
+    checksum: sha256:515f68fef457561da45ed0d1e524c1e81ce22f9ace7aded1f1febd57a05fc79b
+    name: perl-Archive-Tar
+    evr: 2.38-6.el9_8.2
+    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 962232
@@ -2476,12 +2476,6 @@ arches:
     checksum: sha256:5bdfea020bfb4ee04c5fd3a5552724f21af7df49d8bf9b774060f1dd47c6b972
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
-    repoid: ubi-9-appstream-source-rpms
-    size: 85475
-    checksum: sha256:f69ae39dd88bdd2d83f0a15f1dda9cd4335cc61ce48da41c9d9fd8ed52625b08
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/source/SRPMS/Packages/p/perl-Archive-Zip-1.68-6.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 177506
@@ -3702,6 +3696,13 @@ arches:
     name: go-srpm-macros
     evr: 3.8.1-1.el9
     sourcerpm: go-rpm-macros-3.8.1-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.33.1.el9_8.ppc64le.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 2886025
+    checksum: sha256:a661ec3af814fe3b7f1b98f65e8b5ddf86b92a16bda045f3b91a5ccb09580651
+    name: kernel-headers
+    evr: 5.14.0-687.33.1.el9_8
+    sourcerpm: kernel-5.14.0-687.33.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -3856,13 +3857,6 @@ arches:
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
     sourcerpm: perl-Algorithm-Diff-1.2010-4.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 79514
-    checksum: sha256:055ff5f8f75550512c9dc8f27a8fcb891a84790279b83f69556fbfb193f32e49
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
-    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/p/perl-Archive-Zip-1.68-6.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 118766
@@ -5816,13 +5810,13 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.33.1.el9_8.ppc64le.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.2.noarch.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 2886025
-    checksum: sha256:a661ec3af814fe3b7f1b98f65e8b5ddf86b92a16bda045f3b91a5ccb09580651
-    name: kernel-headers
-    evr: 5.14.0-687.33.1.el9_8
-    sourcerpm: kernel-5.14.0-687.33.1.el9_8.src.rpm
+    size: 79997
+    checksum: sha256:515f68fef457561da45ed0d1e524c1e81ce22f9ace7aded1f1febd57a05fc79b
+    name: perl-Archive-Tar
+    evr: 2.38-6.el9_8.2
+    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 1059210
@@ -5971,12 +5965,6 @@ arches:
     checksum: sha256:5bdfea020bfb4ee04c5fd3a5552724f21af7df49d8bf9b774060f1dd47c6b972
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
-    repoid: ubi-9-appstream-source-rpms
-    size: 85475
-    checksum: sha256:f69ae39dd88bdd2d83f0a15f1dda9cd4335cc61ce48da41c9d9fd8ed52625b08
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/source/SRPMS/Packages/p/perl-Archive-Zip-1.68-6.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 177506
@@ -7345,13 +7333,6 @@ arches:
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
     sourcerpm: perl-Algorithm-Diff-1.2010-4.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 79514
-    checksum: sha256:055ff5f8f75550512c9dc8f27a8fcb891a84790279b83f69556fbfb193f32e49
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
-    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/p/perl-Archive-Zip-1.68-6.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 118766
@@ -9319,6 +9300,13 @@ arches:
     name: libomp-devel
     evr: 21.1.8-2.el9
     sourcerpm: llvm-21.1.8-2.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.2.noarch.rpm
+    repoid: rhel-9-for-s390x-appstream-rpms
+    size: 79997
+    checksum: sha256:515f68fef457561da45ed0d1e524c1e81ce22f9ace7aded1f1febd57a05fc79b
+    name: perl-Archive-Tar
+    evr: 2.38-6.el9_8.2
+    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 990055
@@ -9467,12 +9455,6 @@ arches:
     checksum: sha256:5bdfea020bfb4ee04c5fd3a5552724f21af7df49d8bf9b774060f1dd47c6b972
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
-    repoid: ubi-9-appstream-source-rpms
-    size: 85475
-    checksum: sha256:f69ae39dd88bdd2d83f0a15f1dda9cd4335cc61ce48da41c9d9fd8ed52625b08
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/source/SRPMS/Packages/p/perl-Archive-Zip-1.68-6.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 177506
@@ -10841,13 +10823,6 @@ arches:
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
     sourcerpm: perl-Algorithm-Diff-1.2010-4.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 79514
-    checksum: sha256:055ff5f8f75550512c9dc8f27a8fcb891a84790279b83f69556fbfb193f32e49
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
-    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Archive-Zip-1.68-6.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 118766
@@ -12801,6 +12776,13 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-Archive-Tar-2.38-6.el9_8.2.noarch.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 79997
+    checksum: sha256:515f68fef457561da45ed0d1e524c1e81ce22f9ace7aded1f1febd57a05fc79b
+    name: perl-Archive-Tar
+    evr: 2.38-6.el9_8.2
+    sourcerpm: perl-Archive-Tar-2.38-6.el9_8.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 1059543
@@ -12949,12 +12931,6 @@ arches:
     checksum: sha256:5bdfea020bfb4ee04c5fd3a5552724f21af7df49d8bf9b774060f1dd47c6b972
     name: perl-Algorithm-Diff
     evr: 1.2010-4.el9
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/p/perl-Archive-Tar-2.38-6.el9_8.1.src.rpm
-    repoid: ubi-9-appstream-source-rpms
-    size: 85475
-    checksum: sha256:f69ae39dd88bdd2d83f0a15f1dda9cd4335cc61ce48da41c9d9fd8ed52625b08
-    name: perl-Archive-Tar
-    evr: 2.38-6.el9_8.1
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/source/SRPMS/Packages/p/perl-Archive-Zip-1.68-6.el9.src.rpm
     repoid: ubi-9-appstream-source-rpms
     size: 177506
