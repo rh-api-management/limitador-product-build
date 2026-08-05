@@ -207,13 +207,13 @@ arches:
     name: go-srpm-macros
     evr: 3.8.1-1.el9
     sourcerpm: go-rpm-macros-3.8.1-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.33.1.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.34.1.el9_8.aarch64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 2862117
-    checksum: sha256:496fef2e04b8891c1d1ab284e74a6a254bbc06ed1373b640d9978c0ab17c61c2
+    size: 2862625
+    checksum: sha256:8a50db63167d4b6549d9d5c45579ef6c874c8a3c3e93e021ee7d55bd627a34f9
     name: kernel-headers
-    evr: 5.14.0-687.33.1.el9_8
-    sourcerpm: kernel-5.14.0-687.33.1.el9_8.src.rpm
+    evr: 5.14.0-687.34.1.el9_8
+    sourcerpm: kernel-5.14.0-687.34.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -3490,12 +3490,12 @@ arches:
     checksum: sha256:4f79abdb2ad95ad664da3e6b1b3095bc9a429b877b257652531176fab424eabf
     name: efi-rpm-macros
     evr: 6-4.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.33.1.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.34.1.el9_8.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 152376722
-    checksum: sha256:c70092c927b9e0fb6415c6e23bb24da2eac9e9a3b95d9621e405a9728fb47fa3
+    size: 152352999
+    checksum: sha256:d81d657306ead869018f099e0dc5ea3dc7dcae832f7b0d03d1279bd2da65aed6
     name: kernel
-    evr: 5.14.0-687.33.1.el9_8
+    evr: 5.14.0-687.34.1.el9_8
   module_metadata: []
 - arch: ppc64le
   packages:
@@ -3702,13 +3702,13 @@ arches:
     name: go-srpm-macros
     evr: 3.8.1-1.el9
     sourcerpm: go-rpm-macros-3.8.1-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.33.1.el9_8.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-687.34.1.el9_8.ppc64le.rpm
     repoid: ubi-9-appstream-rpms
-    size: 2886025
-    checksum: sha256:a661ec3af814fe3b7f1b98f65e8b5ddf86b92a16bda045f3b91a5ccb09580651
+    size: 2886473
+    checksum: sha256:a5187f89609639fa405f819cdf62702e7c581101bac73fd0625075f26f8954ea
     name: kernel-headers
-    evr: 5.14.0-687.33.1.el9_8
-    sourcerpm: kernel-5.14.0-687.33.1.el9_8.src.rpm
+    evr: 5.14.0-687.34.1.el9_8
+    sourcerpm: kernel-5.14.0-687.34.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/ppc64le/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -6979,12 +6979,12 @@ arches:
     checksum: sha256:e47b884c132983fd0cc40c761de72e1a34ada9ee395cfe50997f9fb9257669d8
     name: zlib
     evr: 1.2.11-40.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.33.1.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.34.1.el9_8.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 152376722
-    checksum: sha256:c70092c927b9e0fb6415c6e23bb24da2eac9e9a3b95d9621e405a9728fb47fa3
+    size: 152352999
+    checksum: sha256:d81d657306ead869018f099e0dc5ea3dc7dcae832f7b0d03d1279bd2da65aed6
     name: kernel
-    evr: 5.14.0-687.33.1.el9_8
+    evr: 5.14.0-687.34.1.el9_8
   module_metadata: []
 - arch: s390x
   packages:
@@ -7198,13 +7198,13 @@ arches:
     name: go-srpm-macros
     evr: 3.8.1-1.el9
     sourcerpm: go-rpm-macros-3.8.1-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-687.33.1.el9_8.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-687.34.1.el9_8.s390x.rpm
     repoid: ubi-9-appstream-rpms
-    size: 2892125
-    checksum: sha256:91098ae8dbf5d13324d73fabe8c5b6236c7dd0709f7269ef8b75d6f57d0a8af3
+    size: 2892605
+    checksum: sha256:2014f838e66508a038ac5b203a778d76b8e769e833dd5937de1ee1651da41484
     name: kernel-headers
-    evr: 5.14.0-687.33.1.el9_8
-    sourcerpm: kernel-5.14.0-687.33.1.el9_8.src.rpm
+    evr: 5.14.0-687.34.1.el9_8
+    sourcerpm: kernel-5.14.0-687.34.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/s390x/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -10475,12 +10475,12 @@ arches:
     checksum: sha256:e47b884c132983fd0cc40c761de72e1a34ada9ee395cfe50997f9fb9257669d8
     name: zlib
     evr: 1.2.11-40.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.33.1.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.34.1.el9_8.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 152376722
-    checksum: sha256:c70092c927b9e0fb6415c6e23bb24da2eac9e9a3b95d9621e405a9728fb47fa3
+    size: 152352999
+    checksum: sha256:d81d657306ead869018f099e0dc5ea3dc7dcae832f7b0d03d1279bd2da65aed6
     name: kernel
-    evr: 5.14.0-687.33.1.el9_8
+    evr: 5.14.0-687.34.1.el9_8
   module_metadata: []
 - arch: x86_64
   packages:
@@ -13963,4 +13963,10 @@ arches:
     checksum: sha256:4f79abdb2ad95ad664da3e6b1b3095bc9a429b877b257652531176fab424eabf
     name: efi-rpm-macros
     evr: 6-4.el9
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.34.1.el9_8.src.rpm
+    repoid: rhel-9-for-x86_64-baseos-source-rpms
+    size: 152352999
+    checksum: sha256:d81d657306ead869018f099e0dc5ea3dc7dcae832f7b0d03d1279bd2da65aed6
+    name: kernel
+    evr: 5.14.0-687.34.1.el9_8
   module_metadata: []
