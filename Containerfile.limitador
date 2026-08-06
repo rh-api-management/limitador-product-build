@@ -51,8 +51,8 @@
           io.openshift.tags="rate limiting, envoy, api" \
           maintainer="asnaps@redhat.com"
 
-    # shadow-utils is required for `useradd`
-    RUN PKGS="libgcc libstdc++ shadow-utils" \
+    # shadow-utils is required for `useradd`; openssl-libs required for FIPS (dynamic libcrypto.so)
+    RUN PKGS="libgcc libstdc++ shadow-utils openssl-libs" \
         && microdnf --assumeyes install --nodocs $PKGS \
         && rpm --verify --nogroup --nouser $PKGS \
         && microdnf --assumeyes clean all
