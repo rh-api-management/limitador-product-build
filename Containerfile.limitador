@@ -44,7 +44,7 @@
     LABEL version="2.4.2" \
           com.redhat.component="limitador-container" \
           name="rhcl-1/limitador-rhel9" \
-          cpe="cpe:/a:redhat:connectivity_link:1::el9" \
+          cpe="cpe:/a:redhat:connectivity_link:1.5::el9" \
           summary="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)." \
           description="The external rate limiting service. It exposes a gRPC service implementing the Envoy Rate Limit protocol (v3)" \
           io.k8s.display-name="Limitador" \
