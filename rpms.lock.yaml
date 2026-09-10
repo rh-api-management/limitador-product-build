@@ -207,13 +207,13 @@ arches:
     name: go-srpm-macros
     evr: 3.8.1-1.el9
     sourcerpm: go-rpm-macros-3.8.1-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.45.1.el9_8.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-687.46.1.el9_8.aarch64.rpm
     repoid: ubi-9-appstream-rpms
-    size: 2879929
-    checksum: sha256:62e7fb8318b2c8d630c67139f09325dbc2bed069ff0b80c0b279396aa85ed1f1
+    size: 2882381
+    checksum: sha256:c99d6e379176e2617942bbb1b429f58377a74930af88ed24e9d85f3d53d75fb0
     name: kernel-headers
-    evr: 5.14.0-687.45.1.el9_8
-    sourcerpm: kernel-5.14.0-687.45.1.el9_8.src.rpm
+    evr: 5.14.0-687.46.1.el9_8
+    sourcerpm: kernel-5.14.0-687.46.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -3490,12 +3490,12 @@ arches:
     checksum: sha256:4f79abdb2ad95ad664da3e6b1b3095bc9a429b877b257652531176fab424eabf
     name: efi-rpm-macros
     evr: 6-4.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.45.1.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.46.1.el9_8.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 152427730
-    checksum: sha256:41a4374839cc62cba2c086248786fc8d0c6e6de797987600598aa9986dafbacb
+    size: 152431117
+    checksum: sha256:378c1016ec891505f10477bf4f32f695033e3d4a94e7366d457bc0b076c826fd
     name: kernel
-    evr: 5.14.0-687.45.1.el9_8
+    evr: 5.14.0-687.46.1.el9_8
   module_metadata: []
 - arch: x86_64
   packages:
@@ -3709,13 +3709,6 @@ arches:
     name: go-srpm-macros
     evr: 3.8.1-1.el9
     sourcerpm: go-rpm-macros-3.8.1-1.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.45.1.el9_8.x86_64.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 2919193
-    checksum: sha256:73240f2b54765a2e2cd551a836d927acc78fa4f882a7d3a924e65c8177e7e97a
-    name: kernel-headers
-    evr: 5.14.0-687.45.1.el9_8
-    sourcerpm: kernel-5.14.0-687.45.1.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-srpm-macros-1.0-14.el9.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 14098
@@ -5816,6 +5809,13 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-687.46.1.el9_8.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 2921665
+    checksum: sha256:a33898add57c43e68cc37c0cfb99d8b96cbc0be46b47e58d69b2e9738b9ad998
+    name: kernel-headers
+    evr: 5.14.0-687.46.1.el9_8
+    sourcerpm: kernel-5.14.0-687.46.1.el9_8.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 1059543
@@ -6978,10 +6978,10 @@ arches:
     checksum: sha256:4f79abdb2ad95ad664da3e6b1b3095bc9a429b877b257652531176fab424eabf
     name: efi-rpm-macros
     evr: 6-4.el9
-  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.45.1.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/k/kernel-5.14.0-687.46.1.el9_8.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 152427730
-    checksum: sha256:41a4374839cc62cba2c086248786fc8d0c6e6de797987600598aa9986dafbacb
+    size: 152431117
+    checksum: sha256:378c1016ec891505f10477bf4f32f695033e3d4a94e7366d457bc0b076c826fd
     name: kernel
-    evr: 5.14.0-687.45.1.el9_8
+    evr: 5.14.0-687.46.1.el9_8
   module_metadata: []
