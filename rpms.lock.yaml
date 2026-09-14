@@ -382,25 +382,11 @@ arches:
     name: perl-Archive-Zip
     evr: 1.68-6.el9
     sourcerpm: perl-Archive-Zip-1.68-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-Attribute-Handlers-1.01-481.1.el9_6.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 27731
-    checksum: sha256:95ee8b22f5c962b56b95dc3e74280ed1471c17bb2031995d3efd431478e40aac
-    name: perl-Attribute-Handlers
-    evr: 1.01-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-AutoLoader-5.74-481.1.el9_6.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 21344
     checksum: sha256:b4557d853be8048aaefde5c4083c43fa34375e224731e93e584e4e3d5db46ac3
     name: perl-AutoLoader
-    evr: 5.74-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-AutoSplit-5.74-481.1.el9_6.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 21714
-    checksum: sha256:de53b7057da078864d27f4acddf37594d40ee4d5f710d129c40cfb5c6097ceb0
-    name: perl-AutoSplit
     evr: 5.74-481.1.el9_6
     sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-B-1.80-481.1.el9_6.aarch64.rpm
@@ -556,13 +542,6 @@ arches:
     checksum: sha256:93e9bb94fe8ce391149ce2f0fb6fb90851d6f16b9c2c0dd1f63c47cbb129b9d5
     name: perl-Devel-Peek
     evr: 1.28-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-Devel-SelfStubber-1.06-481.1.el9_6.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 14231
-    checksum: sha256:703faaef6ca5a65ed4c3cbdb256da9612eed842bd77620a2d527ca8d0fa8a7d2
-    name: perl-Devel-SelfStubber
-    evr: 1.06-481.1.el9_6
     sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-Devel-Size-0.83-10.el9.aarch64.rpm
     repoid: ubi-9-appstream-rpms
@@ -1201,13 +1180,6 @@ arches:
     name: perl-Object-HashBase
     evr: 0.009-7.el9
     sourcerpm: perl-Object-HashBase-0.009-7.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-Opcode-1.48-481.1.el9_6.aarch64.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 36640
-    checksum: sha256:ec91248e4ff688b0850651d3dc6dce6c7716fe00adc7ab71692703cbc425ca3b
-    name: perl-Opcode
-    evr: 1.48-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/p/perl-POSIX-1.94-481.1.el9_6.aarch64.rpm
     repoid: ubi-9-appstream-rpms
     size: 98493
@@ -2328,6 +2300,34 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/perl-Attribute-Handlers-1.01-484.el9_8.noarch.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 33160
+    checksum: sha256:6e663385bd50256b66c7f0ca8e92192aae51849f52fb06dafd29eafa5a0b3a0a
+    name: perl-Attribute-Handlers
+    evr: 1.01-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/perl-AutoSplit-5.74-484.el9_8.noarch.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 27119
+    checksum: sha256:1e7e3b8bcd71089e19b967b8db9fae179cfe75c91634ca3a432d4561d8dd82cb
+    name: perl-AutoSplit
+    evr: 5.74-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/perl-Devel-SelfStubber-1.06-484.el9_8.noarch.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 19638
+    checksum: sha256:6e5a1a75527e53dab17f9691116e830a5070729ddc6f0a5adb3e32650a905090
+    name: perl-Devel-SelfStubber
+    evr: 1.06-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/perl-Opcode-1.48-484.el9_8.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-rpms
+    size: 42052
+    checksum: sha256:1e058cfec04b0d318094f44174b7913ffb25f57500cdd6be305cfd6f579c002e
+    name: perl-Opcode
+    evr: 1.48-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 962232
@@ -3870,25 +3870,11 @@ arches:
     name: perl-Archive-Zip
     evr: 1.68-6.el9
     sourcerpm: perl-Archive-Zip-1.68-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Attribute-Handlers-1.01-481.1.el9_6.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 27731
-    checksum: sha256:95ee8b22f5c962b56b95dc3e74280ed1471c17bb2031995d3efd431478e40aac
-    name: perl-Attribute-Handlers
-    evr: 1.01-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-AutoLoader-5.74-481.1.el9_6.noarch.rpm
     repoid: ubi-9-appstream-rpms
     size: 21344
     checksum: sha256:b4557d853be8048aaefde5c4083c43fa34375e224731e93e584e4e3d5db46ac3
     name: perl-AutoLoader
-    evr: 5.74-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-AutoSplit-5.74-481.1.el9_6.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 21714
-    checksum: sha256:de53b7057da078864d27f4acddf37594d40ee4d5f710d129c40cfb5c6097ceb0
-    name: perl-AutoSplit
     evr: 5.74-481.1.el9_6
     sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-B-1.80-481.1.el9_6.x86_64.rpm
@@ -4044,13 +4030,6 @@ arches:
     checksum: sha256:a8618c242704beebdc36e9ef6f9d797822ae16ff6ce195dc8192b68358cdc5e9
     name: perl-Devel-Peek
     evr: 1.28-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Devel-SelfStubber-1.06-481.1.el9_6.noarch.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 14231
-    checksum: sha256:703faaef6ca5a65ed4c3cbdb256da9612eed842bd77620a2d527ca8d0fa8a7d2
-    name: perl-Devel-SelfStubber
-    evr: 1.06-481.1.el9_6
     sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Devel-Size-0.83-10.el9.x86_64.rpm
     repoid: ubi-9-appstream-rpms
@@ -4388,13 +4367,6 @@ arches:
     name: perl-HTTP-Tiny
     evr: 0.076-462.el9
     sourcerpm: perl-HTTP-Tiny-0.076-462.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Hash-Util-0.23-481.1.el9_6.x86_64.rpm
-    repoid: ubi-9-appstream-rpms
-    size: 34584
-    checksum: sha256:f587cd7123b8b38acffa99b85b4d27726f0f715749be338fc6e3877b3497480d
-    name: perl-Hash-Util
-    evr: 0.23-481.1.el9_6
-    sourcerpm: perl-5.32.1-481.1.el9_6.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/p/perl-Hash-Util-FieldHash-1.20-481.1.el9_6.x86_64.rpm
     repoid: ubi-9-appstream-rpms
     size: 38321
@@ -5816,6 +5788,34 @@ arches:
     name: zip
     evr: 3.0-35.el9
     sourcerpm: zip-3.0-35.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-Attribute-Handlers-1.01-484.el9_8.noarch.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 33160
+    checksum: sha256:6e663385bd50256b66c7f0ca8e92192aae51849f52fb06dafd29eafa5a0b3a0a
+    name: perl-Attribute-Handlers
+    evr: 1.01-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-AutoSplit-5.74-484.el9_8.noarch.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 27119
+    checksum: sha256:1e7e3b8bcd71089e19b967b8db9fae179cfe75c91634ca3a432d4561d8dd82cb
+    name: perl-AutoSplit
+    evr: 5.74-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-Devel-SelfStubber-1.06-484.el9_8.noarch.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 19638
+    checksum: sha256:6e5a1a75527e53dab17f9691116e830a5070729ddc6f0a5adb3e32650a905090
+    name: perl-Devel-SelfStubber
+    evr: 1.06-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-Hash-Util-0.23-484.el9_8.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-rpms
+    size: 39903
+    checksum: sha256:1e6d6e5d251374fcd8769012db81263a554368986c754dc4ed7a63de3d46d817
+    name: perl-Hash-Util
+    evr: 0.23-484.el9_8
+    sourcerpm: perl-5.32.1-484.el9_8.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/protobuf-3.14.0-17.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 1059543
