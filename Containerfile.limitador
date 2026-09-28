@@ -32,6 +32,13 @@
     COPY limitador/limitador ./limitador
     COPY limitador/limitador-server ./limitador-server
 
+    # Downstream-only patch: UBI9 ships protobuf-compiler 3.14.0, which treats proto3
+    # optional fields as experimental. kuadrantrls.proto (added in v2.5.0) uses them, so
+    # protoc needs --experimental_allow_proto3_optional. Upstream builds on Debian with a
+    # newer protoc and doesn't hit this; the flag is a no-op there. The sibling limitador
+    # crate's build.rs already passes it, so this just brings limitador-server into line.
+    RUN sed -i 's/tonic_prost_build::configure()/tonic_prost_build::configure().protoc_arg("--experimental_allow_proto3_optional")/g' limitador-server/build.rs
+
     RUN cargo build --release ${CARGO_ARGS} --offline
 
     # ------------------------------------------------------------------------------
