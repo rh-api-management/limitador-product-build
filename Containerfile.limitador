@@ -45,7 +45,9 @@
     # Run Stage
     # ------------------------------------------------------------------------------
 
-    FROM registry.redhat.io/ubi9/ubi-minimal:latest
+    # Use the RHEL9 PQC variant of ubi-minimal, which ships with the system-wide
+    # crypto policy set to DEFAULT:PQ (CONNLINK-1566).
+    FROM registry.redhat.io/ubi9/ubi-minimal-pqc:latest
     # Labels consumed by Red Hat build service
     # Please keep the version label first as it is looked up by the Makefile - also, it is meant to be the image tag.
     LABEL version="2.4.2" \
